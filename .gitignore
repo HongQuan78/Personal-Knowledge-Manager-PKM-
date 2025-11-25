@@ -1,0 +1,54 @@
+# Build outputs
+bin/
+obj/
+
+# VS / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Maui generated files
+**/Platforms/Android/*.apk
+**/Platforms/Android/*.aab
+**/Platforms/Android/bin/
+**/Platforms/Android/obj/
+
+**/Platforms/iOS/bin/
+**/Platforms/iOS/obj/
+**/Platforms/iOS/*.ipa
+
+**/Platforms/MacCatalyst/bin/
+**/Platforms/MacCatalyst/obj/
+
+**/Platforms/Windows/bin/
+**/Platforms/Windows/obj/
+
+# Logs
+*.log
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Rider
+.idea/
+*.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/packages/
+packages/
+
+# System/other
+*.ds_store
+Thumbs.db
+
+# User secrets
+secrets.json
+
+# Temporary
+*.tmp
+*.temp
